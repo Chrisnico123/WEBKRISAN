@@ -3,3 +3,8 @@ ul li a {
   color: white;
   margin-left: 40px;
 }
+
+#home .row {
+  padding-top: 50px;
+  background-image: image(image/homedesign.png);
+}
