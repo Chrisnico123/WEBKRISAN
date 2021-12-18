@@ -47,12 +47,6 @@
 /* INFO PANEL# */
 
 /* Product* */
-#product {
-  background-color: #fff;
-}
-#product .col {
-  margin-top: 100px;
-}
 
 /* Product# */
 
@@ -67,13 +61,5 @@
   }
   .jumbotron img {
     width: 200px;
-  }
-  .bg-black .container svg {
-    width: 45px;
-    height: 45px;
-    margin-top: 100px;
-  }
-  .bg-black .container p {
-    font-size: 25px;
   }
 }
