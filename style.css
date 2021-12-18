@@ -12,7 +12,7 @@
 .jumbotron img {
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .jumbotron h2 span {
   color: white;
@@ -30,7 +30,7 @@
 .jumbotron {
   background-image: url(image/homedesign.png);
   background-size: cover;
-  height: 350px;
+  height: 300px;
   position: relative;
 }
 .jumbotron::after {
@@ -44,11 +44,17 @@
 }
 /* NAVBAR# */
 
-/* INFO PANEL* */
-.info-panel {
-  background-color: salmon;
-}
 /* INFO PANEL# */
+
+/* Product* */
+#product {
+  background-color: #221f22;
+}
+#product .col {
+  margin-top: 100px;
+}
+
+/* Product# */
 
 /* desktop */
 @media (min-width: 992px) {
@@ -61,5 +67,13 @@
   }
   .jumbotron img {
     width: 200px;
+  }
+  .bg-black .container svg {
+    width: 45px;
+    height: 45px;
+    margin-top: 100px;
+  }
+  .bg-black .container p {
+    font-size: 25px;
   }
 }
