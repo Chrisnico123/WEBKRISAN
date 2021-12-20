@@ -44,11 +44,38 @@
 }
 /* NAVBAR# */
 
+/* Body* */
+.bg-black .row .col svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Body# */
+
 /* Product* */
 #product .col p {
   font-size: 13px;
 }
+.card-body a img {
+  padding-left: 20px;
+}
 /* Product# */
+
+/* Contact* */
+#contact {
+  border-top: none;
+}
+/* Contact# */
+
+/* copyright* */
+.copyright {
+  height: 50px;
+}
+.copyright p {
+  padding-top: 10px;
+  font-size: 12px;
+}
+/* copyright# */
 
 /* desktop */
 @media (min-width: 992px) {
@@ -62,6 +89,36 @@
   .jumbotron img {
     width: 200px;
   }
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  /* Body* */
+  .bg-black .row .col svg {
+    width: 25px;
+    height: 25px;
+  }
+  .bg-black .row .col h3 {
+    font-size: 40px;
+  }
+  .bg-black .row .col p {
+    font-size: 20px;
+  }
+  .bg-black .row .col {
+    margin-top: 200px;
+  }
+  /* Body# */
+
+  /* copyright* */
+  .copyright {
+    height: 40px;
+  }
+  .copyright p {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  /* copyright# */
+
   /* Product* */
   #product .col p {
     font-size: 40px;
@@ -72,4 +129,12 @@
     margin-bottom: 200px;
   }
   /* PProduct# */
+
+  /* Contact* */
+  #contact .card-header img {
+    height: 400px;
+    padding-bottom: 40px;
+  }
+
+  /* Contact# */
 }
