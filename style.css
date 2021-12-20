@@ -63,7 +63,7 @@
 
 /* Contact* */
 #contact {
-  border-top: none;
+  border-top: none !important;
 }
 /* Contact# */
 
