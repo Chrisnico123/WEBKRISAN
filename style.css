@@ -53,8 +53,8 @@
 /* Body# */
 
 /* Product* */
-#product .col p {
-  font-size: 13px;
+.par-font {
+  font-size: 10px;
 }
 .card-body a img {
   padding-left: 20px;
@@ -77,6 +77,38 @@
 }
 /* copyright# */
 
+/* detail */
+.font-vigo{
+  font-family: "Viga", sans-serif;
+}
+
+.font-detail {
+  font-size: medium;
+}
+
+.detail h4 span{
+  color: white;
+  font-size: small !important;
+}
+
+.center-par-ver {
+  display: flex;
+  align-items: center;
+}
+ 
+
+.detail-pay {
+  background-color: white;
+  font-weight: bold;
+  padding: 5px;
+  font-family: "Viga", sans-serif;
+}
+/* detail# */
+
+.gif-size{
+  height: 50px;
+}
+
 /* desktop */
 @media (min-width: 992px) {
   .jumbotron h2 {
@@ -91,6 +123,16 @@
   }
   .navbar-brand img {
     height: 50px;
+  }
+
+  .center-par-ver {
+    display: flex;
+    align-items: center;
+    margin-top: -200px;
+  }
+
+  .gif-size{
+    height: 85px;
   }
 
   /* Body* */
@@ -121,7 +163,9 @@
 
   /* Product* */
   #product .col p {
-    font-size: 40px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
   }
   #product .col img {
     height: 600px;
@@ -135,6 +179,11 @@
     height: 400px;
     padding-bottom: 40px;
   }
-
   /* Contact# */
+
+  /* Detail */
+  .font-detail {
+    font-size: xx-large;
+  }
+  /* Detail# */
 }
